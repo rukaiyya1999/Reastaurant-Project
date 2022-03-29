@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+span{
+    display: inline-block;
+    padding: 5px;
+    background-color: pink;
+    margin: 5px;
+}
+
+.style1{
+  border: 1px solid black;
+  width: 420px;
+  margin: auto;
+}
+h1{
+  color: #876544;
+}
+
+.homestyle{
+  background: #674563;
+  color: gray;
+}
+
+.loginpage{
+  background: url("hotelhero.png");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+input{
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  width: 300px;
+  margin-top:50px;
+}
+
+button{
+  background-color: skyblue;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 20%;
+  color: red;
+}
+
+.navbar{
+  background-color: lightgray;
+}
+
+.liststyle{
+  background-color: #788975;
+  height: 100vh;
+  background-size: cover;
+}
+
+.createstyle{
+  background: url("bed.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.search-row{
+  max-width:100px;
+  background-color: aliceblue;
+  padding: 3px;
+  margin: auto;
+  margin-top: 8px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
