@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -6,15 +6,15 @@ import {
   Link
 } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './components/Home'
-import Restorantlist from './components/Restorantlist'
-import Restorantdetails from './components/Restorantdetails'
-import Restorantsearch from './components/Restorantsearch'
-import Restorantcreate from './components/Restorantcreate'
-import Restorantupdate from './components/Restorantupdate'
-import Restorantlogin from './components/Restorantlogin'
-import Restologout from './components/Restologout'
-import Protected from './components/Protected'
+import Home from './Home'
+import Restorantlist from './Restorantlist'
+import Restorantdetails from './Restorantdetails'
+import Restorantsearch from './Restorantsearch'
+import Restorantcreate from './Restorantcreate'
+import Restorantupdate from './Restorantupdate'
+import Restorantlogin from './Restorantlogin'
+import Restologout from './Restologout'
+import Protected from './Protected'
 function App() {
   return (
     <div className="App">
